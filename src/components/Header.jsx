@@ -2,7 +2,7 @@ import React from "react";
 import logo from '../assets/logo.svg';
 
 const Header = () => (
-  <header className='flex items-center justify-between py-5 px-[1.125rem]'>
+  <header className='flex items-center justify-between py-5 px-[1.125rem] bg-dark-blue-intro'>
     <img src={logo} alt="" className="w-[4.6875rem] h-[1.5rem]"/>
     <nav>
       <ul className='flex gap-5 text-[0.75rem]'>

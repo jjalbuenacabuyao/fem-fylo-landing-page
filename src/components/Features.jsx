@@ -5,7 +5,7 @@ import store from '../assets/icon-any-file.svg'
 
 const Features = () => {
   return (
-    <div className='flex flex-col items-center justify-center gap-20 bg-dark-blue-main px-8 py-28 text-center'>
+    <div className='flex flex-col items-center justify-center gap-20 px-8 py-28 text-center'>
       
       <div className='flex flex-col items-center justify-center'>
         <img src={access} alt="" />
