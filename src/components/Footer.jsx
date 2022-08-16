@@ -5,7 +5,7 @@ import email from '../assets/icon-email.svg';
 
 
 const Footer = () => (
-  <div className='grid pt-[14.0625rem] bg-dark-blue-footer px-8'>
+  <div className='grid pt-[14.0625rem] bg-dark-blue-footer px-8 md:px-[4.10rem]'>
     <a href="#">
       <img className='w-[10.125rem] h-12' src={logo} alt="" />
     </a>

@@ -4,8 +4,8 @@ import profile3 from '../assets/profile-3.jpg';
 import quotes from '../assets/bg-quotes.png';
 
 const Testimonials = () => (
-  <div className='relative px-8 flex flex-col gap-[1.375rem] pb-[19.0625rem]'>
-    <img className='absolute w-5 h-4 top-[-1rem] left-10' src={quotes} alt="" />
+  <div className='relative px-8 md:px-[4.10rem] flex flex-col gap-[1.375rem] pb-[19.0625rem]'>
+    <img className='absolute w-5 h-4 top-[-1rem] left-10 md:left-20' src={quotes} alt="" />
     <div className='bg-dark-blue-intro p-5 rounded-md'>
       <p className='text-xs leading-5'>
           Fylo has improved our team productivity by an order of magnitude. Since making the switch, our team our team has become a well-oiled collaboration machiine.

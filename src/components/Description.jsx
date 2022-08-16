@@ -2,7 +2,7 @@ import descriptionImg from '../assets/illustration-stay-productive.png';
 import arrow from '../assets/icon-arrow.svg';
 
 const Description = () => (
-  <div className='px-8 pb-28'>
+  <div className='px-8 md:px-[4.10rem] pb-28'>
 
     <img src={descriptionImg} alt="" />
 
