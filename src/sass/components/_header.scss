@@ -1,0 +1,17 @@
+header {
+  @apply flex items-center justify-between py-5 px-[1.125rem] bg-dark-blue-intro;
+
+  @apply md:py-[5.33vw] md:px-[4.8vw];
+
+  img {
+    @apply w-[4.6875rem] h-[1.5rem];
+
+    @apply md:w-[20vw] md:h-[6.4vw];
+  }
+
+  ul {
+    @apply flex gap-5 text-[0.75rem];
+
+    @apply md:text-[3.2vw] md:gap-[5.33vw];
+  }
+}

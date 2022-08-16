@@ -4,7 +4,7 @@ import flex from '../script'
 
 const Hero = () => (
   <div className={`${flex.flexCenter} hero`}>
-    <img src={illustration} alt="" className='mt-6'/>
+    <img src={illustration} alt=""/>
     <h1>
       All your files in one secure location, accessible anywhere.
     </h1>

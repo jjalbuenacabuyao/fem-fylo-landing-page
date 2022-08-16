@@ -1,0 +1,5 @@
+.btn {
+  @apply bg-gradient-to-r from-accent-cyan to-accent-blue px-16 text-sm font-bold font-raleway rounded-full py-3 z-10;
+
+  @apply md:text-[3.73vw] md:py-[3.2vw] md:px-[17.06vw];
+}
