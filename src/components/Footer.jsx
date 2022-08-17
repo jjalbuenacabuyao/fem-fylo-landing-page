@@ -1,7 +1,4 @@
-import logo from '../assets/logo.svg';
-import location from '../assets/icon-location.svg';
-import phone from '../assets/icon-phone.svg';
-import email from '../assets/icon-email.svg';
+import { logo, location, phone, email} from '../assets';
 import flex from '../script';
 
 
