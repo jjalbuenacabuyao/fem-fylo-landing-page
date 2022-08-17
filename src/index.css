@@ -1,20 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
 .btn {
   @apply bg-gradient-to-r from-accent-cyan to-accent-blue px-16 text-sm font-bold font-raleway rounded-full py-3 z-10;
-  @apply md:text-[3.73vw] md:py-[3.2vw] md:px-[17.06vw];
+  @apply md:text-[1.7904rem] md:py-[1.536rem] md:px-[8.1888rem];
 }
 
 header {
   @apply flex items-center justify-between py-5 px-[1.125rem] bg-dark-blue-intro;
-  @apply md:py-[5.33vw] md:px-[4.8vw];
+  @apply md:py-[2.5584rem] md:px-[2.304rem];
 }
 header img {
   @apply w-[4.6875rem] h-[1.5rem];
-  @apply md:w-[20vw] md:h-[6.4vw];
+  @apply md:w-[9.6rem] md:h-[3.072rem];
 }
 header ul {
   @apply flex gap-5 text-[0.75rem];
-  @apply md:text-[3.2vw] md:gap-[5.33vw];
+  @apply md:text-[1.536rem] md:gap-[2.5584rem];
 }
 
 .hero {
@@ -25,15 +25,57 @@ header ul {
 }
 .hero img {
   @apply mt-6;
-  @apply md:mt-[6.4vw];
+  @apply md:mt-[3.072rem];
 }
 .hero h1 {
-  @apply font-bold text-[6.4vw] leading-8 font-raleway z-10 pt-10;
-  @apply md:leading-[4rem];
+  @apply font-bold text-2xl leading-8 font-raleway z-10 pt-10;
+  @apply md:leading-[4rem] md:text-[3.072rem];
 }
 .hero p {
   @apply z-10 pt-5 pb-[1.875rem];
-  @apply md:pb-[8vw] md:text-[3.73vw] md:leading-9 md:pt-[5.33vw];
+  @apply md:pb-[8vw] md:text-[1.7904rem] md:leading-9 md:pt-[5.33vw];
+}
+
+.features {
+  @apply flex-col gap-20 px-8 md:px-[4.10rem] py-28 text-center;
+  @apply md:py-[14.336rem] md:gap-[10.24rem];
+}
+.features div {
+  @apply flex-col;
+}
+.features div img {
+  @apply w-[10.624rem];
+}
+.features div h2 {
+  @apply text-xl font-bold font-raleway pt-8 pb-4;
+  @apply md:text-[2.56rem] md:pt-[4.096rem] md:pb-[5.4613rem];
+}
+.features div p {
+  @apply md:text-[1.792rem] md:leading-10;
+}
+
+.description {
+  @apply px-8 pb-28;
+  @apply md:pb-[14.336rem] md:px-[4.10rem];
+}
+.description h2 {
+  @apply text-lg font-raleway font-bold pt-[2.8125rem] pb-5;
+  @apply md:text-[2.304rem] md:pt-[5.76rem] md:pb-[2.56rem];
+}
+.description p,
+.description button {
+  @apply md:text-[1.792rem] md:leading-10;
+}
+.description p {
+  @apply pb-[1.125rem];
+  @apply md:pb-[2.304rem];
+}
+.description button {
+  @apply text-accent-cyan border-b-2 border-accent-cyan pb-1;
+}
+.description button img {
+  @apply inline ml-1;
+  @apply md:w-[2.048rem] md:ml-[0.512rem];
 }
 
 @tailwind base;
