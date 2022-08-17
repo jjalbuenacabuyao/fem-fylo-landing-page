@@ -1,10 +1,9 @@
-import descriptionImg from '../assets/illustration-stay-productive.png';
-import arrow from '../assets/icon-arrow.svg';
+import { arrow, descriptionImg } from "../assets";
 
 const Description = () => (
   <div className='description'>
 
-    <img src={descriptionImg} alt="" />
+    <img className='description__img' src={descriptionImg} alt="" />
 
     <h2>Stay productive, wherever you are</h2>
 

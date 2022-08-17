@@ -20,7 +20,7 @@ header ul {
 .hero {
   @apply relative text-center flex-col px-8 bg-dark-blue-intro bg-curvy-mobile bg-no-repeat bg-center  bg-[length:100%_auto];
   @apply after:absolute after:w-full after:bg-dark-blue-main after:h-[39%] after:bottom-0 after:z-0;
-  @apply sm:bg-[center_top_15rem] sm:after:h-[12rem];
+  @apply sm:bg-[center_top_15rem] sm:after:h-[10rem];
   @apply md:px-[4.10rem] md:bg-[center_top_28rem] md:after:h-[22rem];
 }
 .hero img {
@@ -44,7 +44,7 @@ header ul {
   @apply flex-col;
 }
 .features div img {
-  @apply w-[10.624rem];
+  @apply md:w-[10.624rem];
 }
 .features div h2 {
   @apply text-xl font-bold font-raleway pt-8 pb-4;
@@ -58,7 +58,7 @@ header ul {
   @apply px-8 pb-28 flex-col;
   @apply md:pb-[14.336rem] md:px-[4.10rem];
 }
-.description img {
+.description__img {
   @apply w-full;
 }
 .description h2 {
@@ -95,7 +95,7 @@ header ul {
 }
 .testimonials__inner p {
   @apply text-xs leading-5;
-  @apply md:text-[1.536rem] leading-8;
+  @apply md:text-[1.536rem] md:leading-8;
 }
 .testimonials__person {
   @apply flex items-center gap-3 pt-5;

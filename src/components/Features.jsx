@@ -1,7 +1,4 @@
-import access from '../assets/icon-access-anywhere.svg'
-import security from '../assets/icon-security.svg'
-import collaboration from '../assets/icon-collaboration.svg'
-import store from '../assets/icon-any-file.svg'
+import { access, security, collaboration, anyFile } from '../assets'
 import flex from '../script'
 
 const Features = () => {
@@ -33,7 +30,7 @@ const Features = () => {
       </div>
 
       <div className={`${flex.flexCenter}`}>
-        <img src={store} alt="" />
+        <img src={anyFile} alt="" />
         <h2>Store any type of file</h2>
         <p>
           Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.
