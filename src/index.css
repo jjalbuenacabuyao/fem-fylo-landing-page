@@ -78,6 +78,38 @@ header ul {
   @apply md:w-[2.048rem] md:ml-[0.512rem];
 }
 
+.testimonials {
+  @apply relative px-8 flex flex-col gap-[1.375rem] pb-[19.0625rem];
+  @apply md:px-[4.10rem] md:gap-[2.816rem] md:pb-[39.04rem];
+}
+.testimonials__inner {
+  @apply bg-dark-blue-intro p-5 rounded-md;
+  @apply md:p-[2.56rem] md:rounded-lg;
+}
+.testimonials__inner p {
+  @apply text-xs leading-5;
+  @apply md:text-[1.536rem] leading-8;
+}
+.testimonials__person {
+  @apply flex items-center gap-3 pt-5;
+  @apply md:gap-[1.536rem] md:pt-[2.56rem];
+}
+.testimonials__person img {
+  @apply rounded-full w-[2rem];
+  @apply md:w-[4.096rem];
+}
+.testimonials__person div {
+  @apply flex flex-col;
+}
+.testimonials__name {
+  @apply font-bold leading-3;
+  @apply md:leading-[1.536rem];
+}
+.testimonials__position {
+  @apply text-[0.625rem];
+  @apply md:text-[1.28rem];
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
