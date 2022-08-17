@@ -55,8 +55,11 @@ header ul {
 }
 
 .description {
-  @apply px-8 pb-28;
+  @apply px-8 pb-28 flex-col;
   @apply md:pb-[14.336rem] md:px-[4.10rem];
+}
+.description img {
+  @apply w-full;
 }
 .description h2 {
   @apply text-lg font-raleway font-bold pt-[2.8125rem] pb-5;
@@ -108,6 +111,28 @@ header ul {
 .testimonials__position {
   @apply text-[0.625rem];
   @apply md:text-[1.28rem];
+}
+
+.cta {
+  @apply absolute bottom-[760px] mx-8 bg-dark-blue-intro rounded-lg text-center py-10 px-6;
+  @apply md:mx-[4.10rem] md:rounded-2xl md:py-[5.12rem] md:px-[3.072rem];
+}
+.cta h2 {
+  @apply text-base font-bold;
+  @apply md:text-[2.048rem];
+}
+.cta p {
+  @apply pt-5 pb-[1.875rem] leading-5;
+  @apply md:pt-[2.56rem] md:pb-[3.84rem] md:leading-[2.56rem] md:text-[1.792rem];
+}
+.cta input {
+  @apply rounded-full mb-5 w-full h-[2.75rem] pl-5 text-xs;
+  @apply md:mb-[2.56rem] md:h-[5.632rem] md:pl-[2.56rem] md:text-[1.536rem];
+}
+
+.btn-full {
+  @apply bg-gradient-to-r from-accent-cyan to-accent-blue w-full text-sm font-bold font-raleway rounded-full py-3;
+  @apply md:text-[1.792rem] md:py-[1.536rem];
 }
 
 @tailwind base;
