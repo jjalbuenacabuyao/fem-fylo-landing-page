@@ -85,6 +85,10 @@ header ul {
   @apply relative px-8 flex flex-col gap-[1.375rem] pb-[19.0625rem];
   @apply md:px-[4.10rem] md:gap-[2.816rem] md:pb-[39.04rem];
 }
+.testimonials__quote {
+  @apply absolute w-5 h-4 top-[-1rem] left-10;
+  @apply md:w-[2.56rem] md:h-[2.048rem] md:top-[-2.048rem] md:left-20;
+}
 .testimonials__inner {
   @apply bg-dark-blue-intro p-5 rounded-md;
   @apply md:p-[2.56rem] md:rounded-lg;
@@ -114,8 +118,8 @@ header ul {
 }
 
 .cta {
-  @apply absolute bottom-[760px] mx-8 bg-dark-blue-intro rounded-lg text-center py-10 px-6;
-  @apply md:mx-[4.10rem] md:rounded-2xl md:py-[5.12rem] md:px-[3.072rem];
+  @apply absolute bottom-[47.5rem] mx-8 bg-dark-blue-intro rounded-lg text-center py-10 px-6;
+  @apply md:mx-[4.10rem] md:rounded-2xl md:py-[5.12rem] md:px-[3.072rem] md:bottom-[80rem];
 }
 .cta h2 {
   @apply text-base font-bold;
@@ -133,6 +137,50 @@ header ul {
 .btn-full {
   @apply bg-gradient-to-r from-accent-cyan to-accent-blue w-full text-sm font-bold font-raleway rounded-full py-3;
   @apply md:text-[1.792rem] md:py-[1.536rem];
+}
+
+.footer {
+  @apply grid pt-[14.0625rem] bg-dark-blue-footer px-8;
+  @apply md:pt-[28.8rem] md:px-[4.10rem];
+}
+.footer img:not(.footer__logo) {
+  @apply md:w-[1.664rem] md:h-[2.304rem];
+}
+.footer p {
+  @apply md:text-[1.792rem] md:leading-10;
+}
+.footer__logo {
+  @apply w-[10.125rem] h-12;
+  @apply md:w-[20.736rem] md:h-[6.144rem];
+}
+.footer__location {
+  @apply flex items-start gap-6 mb-[1.4375rem] mt-10;
+  @apply md:gap-[3.072] md:mb-[2.944rem] md:mt-[5.12rem];
+}
+.footer__phone__email {
+  @apply flex flex-col gap-[1.4375rem];
+  @apply md:gap-[2.944rem];
+}
+.footer__phone, .footer__email {
+  @apply flex gap-6;
+  @apply md:gap-[3.072];
+}
+.footer__list__first, .footer__list__second {
+  @apply flex flex-col gap-3;
+  @apply md:text-[1.792rem] md:gap-[1.536rem];
+}
+.footer__list__first {
+  @apply mb-[3.125rem] mt-20;
+}
+.footer__list__second {
+  @apply mb-20;
+}
+.footer__socials {
+  @apply gap-5 pb-10;
+  @apply md:gap-[2.56rem] md:pb-[5.12rem];
+}
+.footer__socials .fa-brands {
+  @apply md:text-5xl;
 }
 
 @tailwind base;

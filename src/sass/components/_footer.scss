@@ -1,0 +1,63 @@
+.footer {
+  @apply grid pt-[14.0625rem] bg-dark-blue-footer px-8;
+
+  @apply md:pt-[28.8rem] md:px-[4.10rem];
+
+  img:not(.footer__logo) {
+    @apply md:w-[1.664rem] md:h-[2.304rem];
+  }
+
+  p {
+    @apply md:text-[1.792rem] md:leading-10;
+  }
+
+  &__logo {
+    @apply w-[10.125rem] h-12;
+
+    @apply md:w-[20.736rem] md:h-[6.144rem];
+  }
+
+  &__location {
+    @apply flex items-start gap-6 mb-[1.4375rem] mt-10;
+
+    @apply md:gap-[3.072] md:mb-[2.944rem] md:mt-[5.12rem];
+  }
+
+  &__phone__email {
+    @apply flex flex-col gap-[1.4375rem];
+
+    @apply md:gap-[2.944rem];
+  }
+
+  &__phone,
+  &__email {
+    @apply flex gap-6;
+
+    @apply md:gap-[3.072];
+  }
+
+  &__list__first,
+  &__list__second {
+    @apply flex flex-col gap-3;
+
+    @apply md:text-[1.792rem] md:gap-[1.536rem];
+  }
+
+  &__list__first {
+    @apply mb-[3.125rem] mt-20;
+  }
+
+  &__list__second {
+    @apply mb-20;
+  }
+
+  &__socials {
+    @apply gap-5 pb-10;
+
+    @apply md:gap-[2.56rem] md:pb-[5.12rem];
+
+    .fa-brands {
+      @apply md:text-5xl;
+    }
+  }
+}

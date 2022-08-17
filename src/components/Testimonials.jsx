@@ -5,7 +5,7 @@ import quotes from '../assets/bg-quotes.png';
 
 const Testimonials = () => (
   <div className='testimonials'>
-    <img className='absolute w-5 h-4 top-[-1rem] left-10 md:left-20' src={quotes} alt="" />
+    <img className='testimonials__quote' src={quotes} alt="" />
 
     <div className='testimonials__inner'>
       <p>
