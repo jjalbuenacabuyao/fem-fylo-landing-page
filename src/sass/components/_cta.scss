@@ -1,23 +1,23 @@
 .cta {
   @apply absolute bottom-[47.5rem] mx-8 bg-dark-blue-intro rounded-lg text-center py-10 px-6;
   //md:bottom-[97.28rem]
-  @apply md:mx-[4.10rem] md:rounded-2xl md:py-[5.12rem] md:px-[3.072rem] md:bottom-[80rem];
+  @apply md:mx-[8.47rem] md:rounded-2xl md:py-[5.12rem] md:px-[3.072rem] md:bottom-[60rem];
 
   h2 {
     @apply text-base font-bold;
 
-    @apply md:text-[2.048rem];
+    @apply md:text-[1.625rem];
   }
 
   p {
     @apply pt-5 pb-[1.875rem] leading-5;
 
-    @apply md:pt-[2.56rem] md:pb-[3.84rem] md:leading-[2.56rem] md:text-[1.792rem];
+    @apply md:pt-7 md:leading-8 md:text-base;
   }
 
   input {
     @apply rounded-full mb-5 w-full h-[2.75rem] pl-5 text-xs;
 
-    @apply md:mb-[2.56rem] md:h-[5.632rem] md:pl-[2.56rem] md:text-[1.536rem];
+    @apply md:text-sm;
   }
 }

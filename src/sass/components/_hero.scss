@@ -1,26 +1,37 @@
-.hero {
-  @apply relative text-center flex-col px-8 bg-dark-blue-intro bg-curvy-mobile bg-no-repeat bg-center  bg-[length:100%_auto];
+.hero__container {
+  @apply relative bg-dark-blue-intro bg-curvy-mobile bg-no-repeat bg-center  bg-[length:100%_auto];
 
   @apply after:absolute after:w-full after:bg-dark-blue-main after:h-[39%] after:bottom-0 after:z-0;
-  //450px
+
   @apply sm:bg-[center_top_15rem] sm:after:h-[10rem];
-  //768px
-  @apply md:px-[4.10rem] md:bg-[center_top_28rem] md:after:h-[22rem];
+
+  @apply md:bg-[center_top_20rem] md:after:h-[8rem];
+
+  @apply xl:after:h-[10rem];
+}
+
+.hero {
+  @apply text-center flex-col px-8  max-w-5xl;
+
+  @apply md:px-[8.47rem];
 
   img {
     @apply mt-6;
     @apply md:mt-[3.072rem];
+    @apply xl:w-full;
   }
 
   h1 {
-    @apply font-bold text-2xl leading-8 font-raleway z-10 pt-10;
+    @apply font-bold text-2xl font-raleway z-10 pt-10;
 
-    @apply md:leading-[4rem] md:text-[3.072rem];
+    @apply md:text-[1.625rem] md:leading-10;
+
+    @apply xl:pt-12 xl:leading-[5rem];
   }
 
   p {
     @apply z-10 pt-5 pb-[1.875rem];
 
-    @apply  md:pb-[8vw] md:text-[1.7904rem] md:leading-9 md:pt-[5.33vw];
+    @apply md:text-base md:leading-8;
   }
 }

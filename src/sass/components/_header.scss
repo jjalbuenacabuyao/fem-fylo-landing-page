@@ -3,15 +3,17 @@ header {
 
   @apply md:py-[2.5584rem] md:px-[2.304rem];
 
+  @apply xl:py-[4.5rem] xl:px-20;
+
   img {
     @apply w-[4.6875rem] h-[1.5rem];
 
-    @apply md:w-[9.6rem] md:h-[3.072rem];
+    @apply xl:w-[11.0625rem] xl:h-[3.1875rem];
   }
 
   ul {
     @apply flex gap-5 text-[0.75rem];
 
-    @apply md:text-[1.536rem] md:gap-[2.5584rem];
+    @apply xl:text-xl xl:gap-14;
   }
 }

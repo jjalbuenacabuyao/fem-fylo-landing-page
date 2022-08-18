@@ -1,7 +1,7 @@
 .description {
   @apply px-8 pb-28 flex-col;
 
-  @apply md:pb-[14.336rem] md:px-[4.10rem];
+  @apply md:px-[8.47rem] md:pb-36;
 
   &__img {
     @apply w-full;
@@ -10,18 +10,17 @@
   h2 {
     @apply text-lg font-raleway font-bold pt-[2.8125rem] pb-5;
 
-    @apply md:text-[2.304rem] md:pt-[5.76rem] md:pb-[2.56rem];
+    @apply md:text-[1.625rem];
   }
 
   p,
   button {
-    @apply md:text-[1.792rem] md:leading-10;
+    @apply md:text-base;
   }
 
   p {
     @apply pb-[1.125rem];
-
-    @apply md:pb-[2.304rem];
+    @apply md:leading-8;
   }
 
   button {
@@ -30,7 +29,7 @@
     img {
       @apply inline ml-1;
 
-      @apply md:w-[2.048rem] md:ml-[0.512rem];
+      @apply md:ml-[0.512rem];
     }
   }
 }

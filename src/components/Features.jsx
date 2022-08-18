@@ -3,7 +3,7 @@ import flex from '../script'
 
 const Features = () => {
   return (
-    <div className={`${flex.flexCenter} features`}>
+    <div className='features'>
       
       <div className={`${flex.flexCenter}`}>
         <img src={access} alt="" />
