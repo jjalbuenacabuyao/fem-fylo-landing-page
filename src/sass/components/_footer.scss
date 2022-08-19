@@ -1,7 +1,24 @@
 .footer {
   @apply grid pt-[14.0625rem] bg-dark-blue-footer px-8;
 
-  @apply md:pt-[28.8rem] md:px-[8.47rem];
+  @apply md:pt-[20rem] md:px-[8.47rem];
+
+  @apply lg:grid-cols-2;
+
+  @apply xl:grid-cols-6 xl:gap-x-10;
+
+  :first-child,
+  &__location,
+  &__phone__email,
+  &__socials {
+    @apply lg:col-span-2;
+
+    @apply xl:col-span-1;
+  }
+
+  :first-child {
+    @apply xl:col-span-6;
+  }
 
   p {
     @apply md:text-base;
@@ -13,10 +30,17 @@
 
   &__location {
     @apply flex items-center gap-6 mb-[1.4375rem] mt-10;
+
+    @apply xl:col-span-2;
+    
   }
 
   &__phone__email {
     @apply flex flex-col gap-[1.4375rem];
+
+    @apply xl:justify-center;
+
+    @apply xl:col-span-2;
   }
 
   &__phone,
@@ -27,6 +51,8 @@
   &__list__first,
   &__list__second {
     @apply flex flex-col gap-3;
+
+    @apply lg:mt-20;
   }
 
   &__list__first {
@@ -39,6 +65,8 @@
 
   &__socials {
     @apply gap-5 pb-10;
+
+    @apply xl:col-span-6;
 
     .fa-brands {
       @apply md:text-2xl;

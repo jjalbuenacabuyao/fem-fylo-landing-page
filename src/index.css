@@ -35,7 +35,7 @@ header ul {
 .hero h1 {
   @apply font-bold text-2xl font-raleway z-50 pt-10;
   @apply md:text-[1.625rem] md:leading-10;
-  @apply xl:pt-12 xl:leading-[5rem];
+  @apply xl:pt-12 xl:leading-[2.5rem];
 }
 .hero p {
   @apply z-10 pt-5 pb-[1.875rem];
@@ -43,7 +43,7 @@ header ul {
 }
 
 .features {
-  @apply flex items-center justify-center flex-col gap-20 px-8 md:px-[4.10rem] py-28 text-center;
+  @apply flex items-center justify-center flex-col gap-20 px-8 md:px-[4.10rem] py-28 text-center max-w-[1440px] m-auto;
   @apply md:px-[8.47rem];
   @apply lg:grid lg:grid-cols-2 lg:items-center lg:justify-center;
 }
@@ -58,7 +58,7 @@ header ul {
 }
 
 .description {
-  @apply px-8 pb-28 grid;
+  @apply px-8 pb-28 grid max-w-[1440px] m-auto;
   @apply md:px-[8.47rem] md:pb-36;
   @apply lg:grid-cols-2 lg:items-center lg:px-20 lg:gap-x-12;
 }
@@ -86,7 +86,7 @@ header ul {
 }
 
 .testimonials {
-  @apply relative px-8 flex flex-col gap-[1.375rem] pb-[19.0625rem];
+  @apply relative px-8 flex flex-col gap-[1.375rem] pb-[19.0625rem] max-w-[1440px] m-auto;
   @apply md:px-[8.47rem] md:gap-[2.816rem] md:pb-[20rem];
   @apply lg:px-20 lg:grid lg:grid-cols-3;
 }
@@ -123,8 +123,9 @@ header ul {
 
 .cta {
   @apply absolute bottom-[47.5rem] mx-8 bg-dark-blue-intro rounded-lg text-center py-10 px-6;
-  @apply md:mx-[8.47rem] md:rounded-2xl md:py-[5.12rem] md:px-[3.072rem] md:bottom-[60rem];
+  @apply md:mx-[8.47rem] md:rounded-2xl md:py-[5.12rem] md:px-[3.072rem] md:bottom-[50rem];
   @apply lg:mx-[13.70446rem];
+  @apply xl:bottom-[32rem];
 }
 .cta h2 {
   @apply text-base font-bold;
@@ -134,9 +135,13 @@ header ul {
   @apply pt-5 pb-[1.875rem] leading-5;
   @apply md:pt-7 md:leading-8 md:text-base;
 }
+.cta div {
+  @apply xl:grid xl:grid-cols-[70%_30%] xl:items-center xl:justify-center xl:gap-5;
+}
 .cta input {
   @apply rounded-full mb-5 w-full h-[2.75rem] pl-5 text-xs;
   @apply md:text-sm;
+  @apply xl:mb-0;
 }
 
 .btn-full {
@@ -146,7 +151,16 @@ header ul {
 
 .footer {
   @apply grid pt-[14.0625rem] bg-dark-blue-footer px-8;
-  @apply md:pt-[28.8rem] md:px-[8.47rem];
+  @apply md:pt-[20rem] md:px-[8.47rem];
+  @apply lg:grid-cols-2;
+  @apply xl:grid-cols-6 xl:gap-x-10;
+}
+.footer :first-child, .footer__location, .footer__phone__email, .footer__socials {
+  @apply lg:col-span-2;
+  @apply xl:col-span-1;
+}
+.footer :first-child {
+  @apply xl:col-span-6;
 }
 .footer p {
   @apply md:text-base;
@@ -156,15 +170,19 @@ header ul {
 }
 .footer__location {
   @apply flex items-center gap-6 mb-[1.4375rem] mt-10;
+  @apply xl:col-span-2;
 }
 .footer__phone__email {
   @apply flex flex-col gap-[1.4375rem];
+  @apply xl:justify-center;
+  @apply xl:col-span-2;
 }
 .footer__phone, .footer__email {
   @apply flex gap-6 items-center;
 }
 .footer__list__first, .footer__list__second {
   @apply flex flex-col gap-3;
+  @apply lg:mt-20;
 }
 .footer__list__first {
   @apply mb-[3.125rem] mt-20;
@@ -174,6 +192,7 @@ header ul {
 }
 .footer__socials {
   @apply gap-5 pb-10;
+  @apply xl:col-span-6;
 }
 .footer__socials .fa-brands {
   @apply md:text-2xl;
