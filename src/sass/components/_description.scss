@@ -1,7 +1,9 @@
 .description {
-  @apply px-8 pb-28 flex-col;
+  @apply px-8 pb-28 grid;
 
   @apply md:px-[8.47rem] md:pb-36;
+
+  @apply lg:grid-cols-2 lg:items-center lg:px-20 lg:gap-x-12;
 
   &__img {
     @apply w-full;

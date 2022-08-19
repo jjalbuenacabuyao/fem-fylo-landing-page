@@ -3,7 +3,7 @@
 
   @apply md:px-[8.47rem];
 
-  @apply xl:grid xl:grid-cols-2;
+  @apply lg:grid lg:grid-cols-2 lg:items-center lg:justify-center;
 
   div {
     @apply flex-col;

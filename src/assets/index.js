@@ -1,4 +1,6 @@
 import illustration from "./illustration-intro.png";
+import curvyMobile from './bg-curvy-mobile.svg';
+import curvyDesktop from './bg-curvy-desktop.svg';
 import quotes from "./bg-quotes.png";
 import arrow from "./icon-arrow.svg";
 import descriptionImg from './illustration-stay-productive.png';
@@ -29,5 +31,7 @@ export {
   email,
   profile1,
   profile2,
-  profile3
+  profile3,
+  curvyDesktop,
+  curvyMobile
 }

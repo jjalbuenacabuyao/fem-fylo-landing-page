@@ -1,5 +1,5 @@
 // import illustration from '../assets';
-import { illustration } from '../assets';
+import { illustration, curvyDesktop, curvyMobile } from '../assets';
 import Buttons from './Buttons';
 import flex from '../script'
 
@@ -15,7 +15,6 @@ const Hero = () => (
       </p>
       <Buttons />
     </div>
-    
   </div>
 )
 

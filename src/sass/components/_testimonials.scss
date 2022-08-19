@@ -3,6 +3,8 @@
 
   @apply md:px-[8.47rem] md:gap-[2.816rem] md:pb-[20rem];
 
+  @apply lg:px-20 lg:grid lg:grid-cols-3;
+
   &__quote {
     @apply absolute w-5 h-4 top-[-1rem] left-10;
 

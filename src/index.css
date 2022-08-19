@@ -7,36 +7,33 @@
 header {
   @apply flex items-center justify-between py-5 px-[1.125rem] bg-dark-blue-intro;
   @apply md:py-[2.5584rem] md:px-[2.304rem];
-  @apply xl:py-[4.5rem] xl:px-20;
 }
 header img {
   @apply w-[4.6875rem] h-[1.5rem];
-  @apply xl:w-[11.0625rem] xl:h-[3.1875rem];
+  @apply lg:w-[7.584375rem] lg:h-[2.427rem];
 }
 header ul {
   @apply flex gap-5 text-[0.75rem];
-  @apply xl:text-xl xl:gap-14;
+  @apply lg:text-base lg:gap-[2.0225rem];
 }
 
 .hero__container {
-  @apply relative bg-dark-blue-intro bg-curvy-mobile bg-no-repeat bg-center  bg-[length:100%_auto];
-  @apply after:absolute after:w-full after:bg-dark-blue-main after:h-[39%] after:bottom-0 after:z-0;
-  @apply sm:bg-[center_top_15rem] sm:after:h-[10rem];
-  @apply md:bg-[center_top_20rem] md:after:h-[8rem];
-  @apply xl:after:h-[10rem];
+  @apply relative bg-dark-blue-intro;
+  @apply after:absolute after:w-full after:h-full after:bottom-0 after:left-0 after:right-0 after:bg-curvy-mobile after:bg-no-repeat after:bg-[bottom_center] after:bg-[length:100vw_22rem];
 }
 
 .hero {
   @apply text-center flex-col px-8  max-w-5xl;
   @apply md:px-[8.47rem];
+  @apply lg:px-[13.70446rem];
 }
 .hero img {
-  @apply mt-6;
+  @apply mt-6 z-10;
   @apply md:mt-[3.072rem];
   @apply xl:w-full;
 }
 .hero h1 {
-  @apply font-bold text-2xl font-raleway z-10 pt-10;
+  @apply font-bold text-2xl font-raleway z-50 pt-10;
   @apply md:text-[1.625rem] md:leading-10;
   @apply xl:pt-12 xl:leading-[5rem];
 }
@@ -48,7 +45,7 @@ header ul {
 .features {
   @apply flex items-center justify-center flex-col gap-20 px-8 md:px-[4.10rem] py-28 text-center;
   @apply md:px-[8.47rem];
-  @apply xl:grid xl:grid-cols-2;
+  @apply lg:grid lg:grid-cols-2 lg:items-center lg:justify-center;
 }
 .features div {
   @apply flex-col;
@@ -61,8 +58,9 @@ header ul {
 }
 
 .description {
-  @apply px-8 pb-28 flex-col;
+  @apply px-8 pb-28 grid;
   @apply md:px-[8.47rem] md:pb-36;
+  @apply lg:grid-cols-2 lg:items-center lg:px-20 lg:gap-x-12;
 }
 .description__img {
   @apply w-full;
@@ -90,6 +88,7 @@ header ul {
 .testimonials {
   @apply relative px-8 flex flex-col gap-[1.375rem] pb-[19.0625rem];
   @apply md:px-[8.47rem] md:gap-[2.816rem] md:pb-[20rem];
+  @apply lg:px-20 lg:grid lg:grid-cols-3;
 }
 .testimonials__quote {
   @apply absolute w-5 h-4 top-[-1rem] left-10;
@@ -125,6 +124,7 @@ header ul {
 .cta {
   @apply absolute bottom-[47.5rem] mx-8 bg-dark-blue-intro rounded-lg text-center py-10 px-6;
   @apply md:mx-[8.47rem] md:rounded-2xl md:py-[5.12rem] md:px-[3.072rem] md:bottom-[60rem];
+  @apply lg:mx-[13.70446rem];
 }
 .cta h2 {
   @apply text-base font-bold;
