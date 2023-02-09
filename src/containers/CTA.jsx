@@ -5,12 +5,12 @@ import { descriptionImg, arrow } from "../assets";
 const CTA = () => {
   return (
     // CTA Section
-    <section className="bg-dark-blue-main flex flex-col gap-14 px-9 pb-40">
+    <section className="flex flex-col gap-14 bg-dark-blue-main px-9 pb-40">
       <Illustration
         src={descriptionImg}
         altText="Illustration of 3 persons having conversation"
       />
-      <div className="flex flex-col gap-5 items-start">
+      <div className="flex flex-col items-start gap-5">
         <h2 className="font-raleway text-lg font-bold">
           Stay productive, wherever you are
         </h2>
