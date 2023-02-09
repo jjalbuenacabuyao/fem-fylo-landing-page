@@ -26,15 +26,6 @@ module.exports = {
         'curvy-mobile': 'url(src/assets/bg-curvy-mobile.svg)',
         'curvy-desktop': 'url(src/assets/bg-curvy-desktop.svg)'
       }
-    },
-
-    screens: {
-      'xsm': '375px',
-      'sm': '425px',
-      'md': '768px',
-      'lg': '1024px',
-      'xl': '1440px',
-      '2xl': '2560px'
     }
   },
   plugins: [],
