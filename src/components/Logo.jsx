@@ -1,8 +1,11 @@
 import React from 'react'
+import {logo} from "../assets"
 
-const Logo = () => {
+const Logo = ({className}) => {
   return (
-    <div>Logo</div>
+    <a href="#">
+      <img src={logo} alt="FYLO logo" className={className}/>
+    </a>
   )
 }
 
