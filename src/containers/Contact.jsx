@@ -3,7 +3,7 @@ import { Button } from "../components";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col gap-6 text-center py-12 px-7 bg-dark-blue-intro">
+    <div className="absolute inset-x-5 bottom-full flex translate-y-1/2 flex-col gap-6 rounded-lg bg-dark-blue-intro py-12 px-7 text-center">
       <h2 className="font-raleway text-lg font-bold leading-none">
         Get early access today
       </h2>
@@ -18,7 +18,7 @@ const Contact = () => {
           name="email"
           id="email"
           placeholder="email@example.com"
-          className="py-3 px-8 rounded-full"
+          className="rounded-full py-3 px-8"
         />
         <Button text="Get Started For Free" />
       </form>
