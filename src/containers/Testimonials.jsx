@@ -32,7 +32,7 @@ const Testimonials = () => {
   return (
     //Testimonials
     <section className="relative flex flex-col gap-6 bg-dark-blue-main px-12 pb-96">
-      <img src={quotes} alt="" className="absolute left-16 bottom-full w-6" />
+      <img aria-hidden="true" src={quotes} alt="" className="absolute left-16 bottom-full w-6" />
       {testimonials.map((testimonial) => (
         <TestimonialCard
           name={testimonial.name}
