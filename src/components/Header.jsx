@@ -4,7 +4,7 @@ import Nav from './Nav'
 
 const Header = () => {
   return (
-    <header className='px-5 py-6 flex justify-between items-between'>
+    <header className='px-5 py-6 flex justify-between items-center'>
       <Logo className="w-20" />
       <Nav />
     </header>
