@@ -31,7 +31,7 @@ const Testimonials = () => {
   ];
   return (
     //Testimonials
-    <section className="relative flex flex-col gap-6 bg-dark-blue-main px-12 pb-72">
+    <section className="relative flex flex-col gap-6 bg-dark-blue-main px-48-140 pb-288-360">
       <img
         aria-hidden="true"
         src={quotes}

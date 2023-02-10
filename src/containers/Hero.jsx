@@ -5,10 +5,11 @@ import { illustration } from "../assets";
 const Hero = () => {
   return (
     // Hero Section
-    <section className="px-9 pt-9 flex flex-col gap-11">
+    <section className="px-36-350 pt-9 flex flex-col gap-11">
       <Illustration
         src={illustration}
         alt="Illustration of two persons organizing files in a huge folder"
+        className="mx-auto"
       />
       <article className="flex flex-col items-center text-center gap-5">
         <h1 className="font-raleway font-bold text-2xl">All your files in one secure location, accessible anywhere.</h1>

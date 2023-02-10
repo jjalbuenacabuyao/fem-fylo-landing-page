@@ -31,7 +31,7 @@ const Footer = () => {
   const socialIcons = ["logo-facebook", "logo-twitter", "logo-instagram"];
 
   return (
-    <footer className="relative flex flex-col gap-10 bg-dark-blue-footer px-9 pt-72 pb-12">
+    <footer className="relative flex flex-col gap-10 bg-dark-blue-footer px-36-120 pt-288-360 pb-48-95">
       <Contact />
       <Logo />
       <div className="flex flex-col gap-5">
