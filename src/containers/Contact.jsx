@@ -3,7 +3,7 @@ import { Button } from "../components";
 
 const Contact = () => {
   return (
-    <div className="absolute inset-x-5 bottom-full flex translate-y-1/2 flex-col gap-6 rounded-lg bg-dark-blue-intro py-12 px-7 text-center">
+    <div className="absolute inset-x-20-290 bottom-full flex translate-y-1/2 flex-col gap-6 rounded-lg bg-dark-blue-intro py-12 px-7 text-center">
       <h2 className="font-raleway text-lg font-bold leading-none">
         Get early access today
       </h2>
