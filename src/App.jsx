@@ -6,7 +6,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <main>
+      <main className="relative">
         <Hero />
         <Features />
         <CTA />
