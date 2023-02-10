@@ -1,6 +1,6 @@
 import React from "react";
 import { Header } from "./components";
-import { Hero, Features, CTA } from "./containers";
+import { Hero, Features, CTA, Testimonials } from "./containers";
 
 const App = () => {
   return (
@@ -10,6 +10,7 @@ const App = () => {
         <Hero />
         <Features />
         <CTA />
+        <Testimonials />
       </main>
     </>
   );
