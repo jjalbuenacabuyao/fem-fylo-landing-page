@@ -4,6 +4,7 @@ import Nav from "./Nav";
 import Illustration from "./Illustration";
 import Button from "./Button";
 import Icon from "./Icon";
+import TestimonialCard from "./TestimonialCard";
 
 export {
   Header,
@@ -11,5 +12,6 @@ export {
   Nav,
   Illustration,
   Button,
-  Icon
+  Icon,
+  TestimonialCard
 }
