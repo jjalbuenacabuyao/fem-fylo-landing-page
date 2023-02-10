@@ -22,10 +22,16 @@ module.exports = {
         'raleway': ['Raleway', 'sans-serif']
       },
 
+      fontSize: {
+        "24-38": "clamp(1.5rem, 1.19rem + 1.31vw, 2.375rem)",
+        "14-20": "clamp(0.875rem, 0.74rem + 0.56vw, 1.25rem)"
+      },
+
       backgroundImage: {
         'curvy-mobile': 'url(src/assets/bg-curvy-mobile.svg)',
         'curvy-desktop': 'url(src/assets/bg-curvy-desktop.svg)'
       },
+
       padding: {
         "20-80": "clamp(1.25rem, -0.071rem + 5.63vw, 5rem)",
         "24-74": "clamp(1.5rem, 0.4rem + 4.69vw, 4.625rem)",
@@ -39,6 +45,7 @@ module.exports = {
         "36-120": "clamp(2.25rem, 0.40rem + 7.89vw, 7.5rem)",
         "48-95": "clamp(3rem, 1.97rem + 4.413vw, 5.9375rem)",
       },
+
       inset: {
         "20-290": "clamp(1.25rem, -4.69rem + 25.35vw, 18.125rem)",
       }
