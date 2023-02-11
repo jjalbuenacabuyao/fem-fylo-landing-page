@@ -24,7 +24,11 @@ module.exports = {
 
       fontSize: {
         "24-38": "clamp(1.5rem, 1.19rem + 1.31vw, 2.375rem)",
-        "14-20": "clamp(0.875rem, 0.74rem + 0.56vw, 1.25rem)"
+        "14-20": "clamp(0.875rem, 0.74rem + 0.56vw, 1.25rem)",
+        "14-18": "clamp(0.875rem, 0.79rem + 0.38vw, 1.125rem)",
+        "18-38": "clamp(1.125rem, 0.68rem + 1.88vw, 2.375rem)",
+        "12-14": "clamp(0.75rem, 0.71rem + 0.19vw, 0.875rem)",
+        "18-32": "clamp(1.125rem, 0.82rem + 1.31vw, 2rem)",
       },
 
       backgroundImage: {
@@ -34,6 +38,7 @@ module.exports = {
 
       padding: {
         "20-80": "clamp(1.25rem, -0.071rem + 5.63vw, 5rem)",
+        "20-24": "clamp(1.25rem, 1.16rem + 0.38vw, 1.5rem)",
         "24-74": "clamp(1.5rem, 0.4rem + 4.69vw, 4.625rem)",
         "36-350": "clamp(2.25rem, -4.66rem + 29.48vw, 21.875rem)",
         "36-280": "clamp(2.25rem, -3.12rem + 22.91vw, 17.5rem)",
@@ -44,6 +49,7 @@ module.exports = {
         "288-360": "clamp(18rem, 16.42rem + 6.76vw, 22.5rem)",
         "36-120": "clamp(2.25rem, 0.40rem + 7.89vw, 7.5rem)",
         "48-95": "clamp(3rem, 1.97rem + 4.413vw, 5.9375rem)",
+        "28-44": "clamp(1.75rem, 1.4rem + 1.50vw, 2.75rem)",
       },
 
       inset: {
@@ -55,7 +61,11 @@ module.exports = {
       },
 
       gap: {
-        "24-56": "clamp(1.5rem, 0.8rem + 3vw, 3.5rem)"
+        "24-56": "clamp(1.5rem, 0.8rem + 3vw, 3.5rem)",
+        "80-96": "clamp(5rem, 4.65rem + 1.5vw, 6rem)",
+        "20-24": "clamp(1.25rem, 1.16rem + 0.38vw, 1.5rem)",
+        "20-28": "clamp(1.25rem, 1.08rem + 0.75vw, 1.75rem)",
+        "24-36": "clamp(1.5rem, 1.23rem + 1.13vw, 2.25rem)",
       }
     }
   },
