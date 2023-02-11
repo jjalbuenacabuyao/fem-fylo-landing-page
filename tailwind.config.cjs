@@ -48,6 +48,10 @@ module.exports = {
 
       inset: {
         "20-290": "clamp(1.25rem, -4.69rem + 25.35vw, 18.125rem)",
+      },
+
+      width: {
+        "80-176": "clamp(5rem, 3.8rem + 6vw, 11rem)",
       }
     }
   },
