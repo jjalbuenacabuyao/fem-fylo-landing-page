@@ -31,10 +31,10 @@ const Footer = () => {
   const socialIcons = ["logo-facebook", "logo-twitter", "logo-instagram"];
 
   return (
-    <footer className="relative flex flex-col gap-10 bg-dark-blue-footer px-36-120 pt-288-360 pb-48-95">
+    <footer className="relative flex flex-col gap-10 bg-dark-blue-footer px-36-120 pt-288-360 pb-48-95 md:grid md:grid-cols-2">
       <Contact />
-      <Logo />
-      <div className="flex flex-col gap-5">
+      <Logo className="md:col-span-2" />
+      <div className="flex flex-col gap-5 md:col-span-2">
         {contactInfo.map((info) => (
           <div key={info.key} className="grid grid-cols-[auto_1fr] gap-7">
             <Icon src={info.icon} alt={info.alt} className="h-auto w-5" />
@@ -53,7 +53,7 @@ const Footer = () => {
         ))}
       </ul>
 
-      <ul className="flex flex-col gap-5">
+      <ul className="flex flex-col gap-6">
         {footerLink2.map((link) => (
           <li key={link}>
             <a href="#" className="leading-none">
@@ -63,7 +63,7 @@ const Footer = () => {
         ))}
       </ul>
 
-      <ul className="flex items-center justify-center gap-3 text-2xl leading-none">
+      <ul className="flex items-center justify-center gap-3 text-2xl leading-none md:col-span-2">
         {socialIcons.map((icon) => (
           <ion-icon key={icon} name={icon}></ion-icon>
         ))}
