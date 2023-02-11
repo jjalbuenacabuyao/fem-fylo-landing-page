@@ -31,15 +31,11 @@ const Testimonials = () => {
   ];
   return (
     //Testimonials
-    <section className="relative flex flex-col gap-6 bg-dark-blue-main px-48-140 pb-288-360">
-      <img
-        aria-hidden="true"
-        src={quotes}
-        alt="quotes"
-        className="absolute left-16 bottom-full w-6"
-      />
-      {testimonials.map((testimonial) => (
+    <section className="flex flex-col gap-24-36 bg-dark-blue-main px-48-140 pb-288-360 md:grid md:grid-cols-4 last:col-start-2">
+      {testimonials.map((testimonial, index) => (
         <TestimonialCard
+          key={testimonial.name}
+          index={index}
           name={testimonial.name}
           role={testimonial.role}
           comment={testimonial.testimony}
