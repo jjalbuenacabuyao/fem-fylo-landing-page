@@ -11,8 +11,8 @@ const CTA = () => {
         altText="Illustration of 3 persons having conversation"
         className="mx-auto"
       />
-      <div className="flex flex-col items-start gap-5">
-        <h2 className="font-raleway text-lg font-bold">
+      <div className="flex flex-col items-start gap-20-24">
+        <h2 className="font-raleway text-18-38 font-bold">
           Stay productive, wherever you are
         </h2>
         <p>
