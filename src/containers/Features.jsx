@@ -46,7 +46,7 @@ const Features = () => {
 
   return (
     // Features Section
-    <section className="relative flex flex-col gap-20 bg-dark-blue-main px-36-280 py-128-165 text-center">
+    <section className="relative flex flex-col gap-80-96 bg-dark-blue-main px-36-280 py-128-165 text-center">
       {/* Blob */}
       <img
         src={curvyMobile}
