@@ -51,7 +51,7 @@ module.exports = {
       },
 
       width: {
-        "80-176": "clamp(5rem, 3.8rem + 6vw, 11rem)",
+        "80-176": "clamp(5rem, 2.89rem + 9.01vw, 11rem)",
       }
     }
   },
