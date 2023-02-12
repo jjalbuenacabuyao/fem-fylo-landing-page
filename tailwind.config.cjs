@@ -6,6 +6,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        "xl": "1440px",
+      },
+
       colors: {
         'dark-blue-intro': 'hsl(217, 28%, 15%)',
         'dark-blue-main': 'hsl(218, 28%, 13%)',
@@ -50,6 +54,7 @@ module.exports = {
         "36-120": "clamp(2.25rem, 0.40rem + 7.89vw, 7.5rem)",
         "48-95": "clamp(3rem, 1.97rem + 4.413vw, 5.9375rem)",
         "28-44": "clamp(1.75rem, 1.4rem + 1.50vw, 2.75rem)",
+        "28-76": "clamp(1.75rem, 0.7rem + 4.51vw, 4.75rem)",
       },
 
       inset: {
