@@ -6,7 +6,7 @@ const TestimonialCard = ({ index, name, role, comment, src, alt }) => {
     <div
       className={`relative flex flex-col gap-20-28 rounded-md bg-dark-blue-testimonial px-20-24 py-28-44 text-12-14 md:col-span-2 ${
         index == 2 ? "md:col-start-2" : ""
-      }`}
+      } lg:col-span-1`}
     >
       {index == 0 ? (
         <img
