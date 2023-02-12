@@ -31,7 +31,7 @@ const Testimonials = () => {
   ];
   return (
     //Testimonials
-    <section className="flex flex-col gap-24-36 bg-dark-blue-main px-48-140 pb-288-360 md:grid md:grid-cols-4 last:col-start-2">
+    <section className="flex flex-col gap-24-36 bg-dark-blue-main px-48-140 pb-288-360 md:grid md:grid-cols-4 lg:grid-cols-3">
       {testimonials.map((testimonial, index) => (
         <TestimonialCard
           key={testimonial.name}
