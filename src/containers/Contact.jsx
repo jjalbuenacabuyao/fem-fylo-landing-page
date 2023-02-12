@@ -12,7 +12,7 @@ const Contact = () => {
         generous. If you have any questions, our support team would be happy to
         help you.
       </p>
-      <form className="flex flex-col gap-6">
+      <form className="flex flex-col gap-6 lg:grid lg:grid-cols-[2fr_1fr]">
         <input
           type="email"
           name="email"
