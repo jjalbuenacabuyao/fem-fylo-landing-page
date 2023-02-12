@@ -1,12 +1,12 @@
-import React from 'react'
-import {logo} from "../assets"
+import React from "react";
+import { logo } from "../assets";
 
-const Logo = ({className}) => {
+const Logo = ({ className }) => {
   return (
-    <a href="#">
-      <img src={logo} alt="FYLO logo" className={className}/>
+    <a href="#" className={className}>
+      <img src={logo} alt="FYLO logo" />
     </a>
-  )
-}
+  );
+};
 
-export default Logo
+export default Logo;
