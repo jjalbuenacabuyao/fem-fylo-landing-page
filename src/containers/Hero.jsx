@@ -5,7 +5,7 @@ import { illustration } from "../assets";
 const Hero = () => {
   return (
     // Hero Section
-    <section className="px-36-350 pt-9 flex flex-col gap-11">
+    <section className="px-36-350 pt-9 flex flex-col gap-11 lg:pb-36-280">
       <Illustration
         src={illustration}
         alt="Illustration of two persons organizing files in a huge folder"
