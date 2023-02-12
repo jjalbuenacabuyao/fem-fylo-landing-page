@@ -66,6 +66,8 @@ module.exports = {
         "20-24": "clamp(1.25rem, 1.16rem + 0.38vw, 1.5rem)",
         "20-28": "clamp(1.25rem, 1.08rem + 0.75vw, 1.75rem)",
         "24-36": "clamp(1.5rem, 1.23rem + 1.13vw, 2.25rem)",
+        "20-36": "clamp(1.25rem, 0.9rem + 1.5vw, 2.25rem)",
+        "44-60": "clamp(2.75rem, 2.4rem + 1.5vw, 3.75rem)",
       }
     }
   },
